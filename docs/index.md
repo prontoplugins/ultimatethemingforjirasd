@@ -70,7 +70,7 @@ Editable areas are created using the macro **${editable}** in the HTML. This cre
 
 The plugin layout system has support for the Bootstrap Grid system, which you can read about here: https://getbootstrap.com/examples/grid/.
 
-If you need e.g. a response left sidebar, you can use the following HTML for your layout. We do not recommend that you use a **right sidebar** since the Service Desk main content seems often to have a fixed width of 700px (and thus not responsive).
+If you need e.g. a response left sidebar (+ top and bottom), you can use the following HTML for your layout. We do not recommend that you use a **right sidebar** since the Service Desk main content seems often to have a fixed width of 700px (and thus not responsive).
 
 ```
  <div style="margin-top:0" class='container-fluid'>
@@ -101,3 +101,20 @@ If you need e.g. a response left sidebar, you can use the following HTML for you
 
 ### Uploads
 
+<a name="uploads"></a>
+
+When you upload a file, it becomes possible to link to it from a editable area. (Use the editor to select the file).
+
+The .css files you upload are automatically inserted and rendered on the page.
+
+The .js files are also inserted on the page and executed (but only once, on page load). Note that to get the event that the location changes, use the following javascript template:
+
+```
+(function(){
+    SERVICEDESK_REGISTER_JAVASCRIPT( {
+        onLocationChange: function(location) {
+            console.log("onLocationChange",location) // inspect the location
+        }
+    } )
+}())
+```
