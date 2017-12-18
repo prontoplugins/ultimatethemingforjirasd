@@ -1,7 +1,8 @@
-# This is an H1
+# Ultimate Theming for Jira Service Desk
 
 ## Introduction
 
-This is the page first the new version of the Ultimate Theming for 
-a
-asd
+This is the page first the new version 2.0 of the Ultimate Theming for Jira Service Desk.
+
+You can find the old documentation here: https://pronto-plugins.herokuapp.com/ultimate.html
+
