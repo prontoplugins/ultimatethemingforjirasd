@@ -1,11 +1,5 @@
-## Welcome
+# This is an H1
 
-asd
-*hello*
+## Introduction
 
-**yessir**
-
-
-## Welcome
-
-## asd
+This is the page first the new version of the Ultimate Theming for 
