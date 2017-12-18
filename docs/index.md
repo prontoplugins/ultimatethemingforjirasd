@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is the page first the new version 2.0 of the Ultimate Theming for Jira Service Desk.
+This is the documentation and help page for the new version 2.X of the Ultimate Theming for Jira Service Desk.
 
-You can find the old documentation [here](https://pronto-plugins.herokuapp.com/ultimate.html).
+You can find the old documentation for v.1.X [here](https://pronto-plugins.herokuapp.com/ultimate.html).
 
 ## What changed from version 1 to version 2
 
