@@ -44,15 +44,16 @@ Installation in Jira is through Atlassian Marketplace, or by downloading a versi
 
 <a name="themes"></a>
 
-The plugin is theme-based, which means that every Service Desk page is under a theme. Beware that for portals, the request view is also
+The plugin is theme based, which means that every Service Desk page is under a theme. **By default all pages have no theme assigned.**
 
-**By default all pages have no theme assigned.**
+All customizations you make (except changing the global footer) are **bound to a theme**. This means themes can be re-used all over the portal. This also means you can have **different views on different portal pages** - maybe you need to print guidelines on one portal, and show some links on another. Theming lets you do that.
 
-All customizations you make (except changing the global footer) are *bound to a theme*. This means themes can be re-used all over the portal. This also means you can have different views on different portal pages - maybe you need to print guidelines on one portal, and show some links on another. Theming lets you do that.
-
-Uploads are only usable on pages for the theme they were uploaded to. For instance, .cs/.js files, will only be rendered to the specific theme.
+Uploads are only usable on pages for the theme they are uploaded to. For instance, .cs/.js files, will only be rendered to the specific theme on the pages the theme is assigned.
 
 ### Layouts
+
+<a name="layout"></a>
+
 A layout defines the structure of the page. 
 
 **When no layout is assigned to the theme of the current portal page, the layout is just Service Desk "as is".**
@@ -67,6 +68,33 @@ Layouts can have editable areas. By creating those, you can click the pencil ico
 
 Editable areas are created using the macro **${editable}** in the HTML. This creates a wrapping div when rendered.
 
+The plugin layout system has support for the Bootstrap Grid system, which you can read about here: https://getbootstrap.com/examples/grid/.
+
+If you need e.g. a response left sidebar, you can use the following HTML for your layout.
+
+> <div style="margin-top:0" class='container-fluid'>
+>    <div class='row'>
+        <div class='col-md-12 col-xs-12' style='min-height:80px'>
+            ${editable}
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-md-3 col-xs-12'>
+            ${editable}
+        </div>
+        <div class='col-md-9 col-xs-12'>
+            <div style='float:left'>
+            ${service-desk-content}
+            </div>
+            <div style='clear:left' />
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-md-12 col-xs-12' style='min-height:80px'>
+            ${editable}
+        </div>
+    </div>
+ </div>
 
 ### Uploads
 
