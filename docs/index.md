@@ -11,7 +11,7 @@ You can find the old documentation for v.1.X [here](https://pronto-plugins.herok
 * Added the option to customize login page
 * Added the option to export to Excel from "My requests".
 * A new structure for the server side, meaning the themes from v1 is going to be migrated into a new format going forward. You should only notice some visual changes to modal windows and so on if updating the plugin.
-* New users must create a theme and apply to portal page, before any customization can be made. A layout must be added to the theme as well, if one wants to change the structure of a portal page.
+* New users must create a theme and assign it to a portal page, before any customization can be made. A layout must be added to the theme as well, if one wants to change the structure of a portal page.
 
 More features are to be added soon.
 
@@ -43,10 +43,9 @@ Installation in Jira is through Atlassian Marketplace, or by downloading a versi
 
 The plugin is theme-based, which means that every Service Desk page/Location is under a theme. 
 
-**By default all locations have no theme applied.**
+**By default all pages have no theme assigned.**
 
-All customizations you maje (except changing the global footer) are *bound to a theme*. This means themes can be re-used all over the portal.
+All customizations you make (except changing the global footer) are *bound to a theme*. This means themes can be re-used all over the portal. This also means you can have different views on different portal pages - maybe you need to print guidelines on one portal, and show some links on another. Theming lets you do that.
 
-Things you change on the Service Desk pages are saved under the selected theme, this includes hide/show of elements, editable area content, portal changes etc. Also, uploads are only usable on pages for the theme they were uploaded to. For instance, .css files, will only be rendered to the specific theme.
+Uploads are only usable on pages for the theme they were uploaded to. For instance, .css files, will only be rendered to the specific theme.
 
-Themning means you can have different views on different portal pages. Maybe you need to print guidelines on one portal, and nothing on another. Theming lets you do that.
