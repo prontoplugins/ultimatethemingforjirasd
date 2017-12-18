@@ -72,8 +72,9 @@ The plugin layout system has support for the Bootstrap Grid system, which you ca
 
 If you need e.g. a response left sidebar, you can use the following HTML for your layout. We do not recommend that you use a **right sidebar** since the Service Desk main content seems often to have a fixed width of 700px (and thus not responsive).
 
-> <div style="margin-top:0" class='container-fluid'>
->    <div class='row'>
+```
+ <div style="margin-top:0" class='container-fluid'>
+    <div class='row'>
         <pre>
         <div class='col-md-12 col-xs-12' style='min-height:80px'>
             ${editable}
@@ -96,7 +97,7 @@ If you need e.g. a response left sidebar, you can use the following HTML for you
         </div>
     </div>
  </div>
-        </pre>
+```
 
 ### Uploads
 
