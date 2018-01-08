@@ -101,15 +101,13 @@ If you need e.g. a response left sidebar (+ top and bottom), you can use the fol
  </div>
 ```
 
-### Uploads
+### Uploads (JS, CSS and files)
 
 <a name="uploads"></a>
 
-When you upload a file, it becomes possible to link to it from a editable area. (Use the editor to select the file).
-
 The .css files you upload are automatically inserted and rendered on the page.
 
-The .js files are also inserted on the page and executed (but only once, on page load). Note that to get the event that the location changes, use the following javascript as a template, which essentially creates an event listener:
+The .js files are also inserted on the page and executed (but only once, on page load). Note that to get the event that the location changes, use the following javascript as a template, which essentially creates an event listener (the function SERVICEDESK_REGISTER_JAVASCRIPT is made possible using the addon):
 
 ```
 (function(){
