@@ -8,11 +8,13 @@ You can find the old documentation for v.1.X [here](https://pronto-plugins.herok
 
 ## What changed from version 1 to version 2
 
+* Added better icons to edit editable areas and widgets
 * Added the option to customize login page
 * Added the option to export to Excel from "My requests".
 * Made the request view of a portal isolated, meaning that a theme can be applied to the "request types" view of a portal, and another theme can be applied to the "request view" of a portal.
 * A new structure for the server side, meaning the themes from v1 is going to be migrated into a new format going forward. You should only notice some visual changes to modal windows and so on if updating the plugin.
 * New users must create a theme and assign it to a portal page, before any customization can be made. A layout must be added to the theme as well, if one wants to change the structure of a portal page.
+
 
 More features are to be added soon.
 
