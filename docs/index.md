@@ -119,4 +119,7 @@ The .js files are also inserted on the page and executed (but only once, on page
 }())
 ```
 
-A file uploaded can be linked to in the HTML editor (editable area), using the following syntax: ${file:filename.pdf}.
+A file uploaded can be linked to in the HTML editor (editable area) by using the "insert link" feature (toolbar). If using the source editor, use the following syntax to create a link to a file: 
+```
+<a href="${file:filename.pdf}">Link texta</a>.
+```
