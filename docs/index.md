@@ -107,7 +107,7 @@ When you upload a file, it becomes possible to link to it from a editable area. 
 
 The .css files you upload are automatically inserted and rendered on the page.
 
-The .js files are also inserted on the page and executed (but only once, on page load). Note that to get the event that the location changes, use the following javascript template:
+The .js files are also inserted on the page and executed (but only once, on page load). Note that to get the event that the location changes, use the following javascript as a template, which essentially creates an event listener:
 
 ```
 (function(){
@@ -119,9 +119,9 @@ The .js files are also inserted on the page and executed (but only once, on page
 }())
 ```
 
-note that *jQuery* is available in scripts by the variable AJS.$, or jQuery. It depends on the Service Desk version.
+Note that **jQuery** is available in scripts by the variable AJS.$, or jQuery. It depends on the Service Desk version. Just trial and error here for you.
 
-A file uploaded can be linked to in the HTML editor (editable area) by using the "insert link" feature (toolbar). If using the source editor, use the following syntax to create a link to a file: 
+A file uploaded can be linked to in the HTML editor (editable area) by using the "link" button/feature (toolbar). If using the source editor, use the following syntax to create a link to a file: 
 ```
 <a href="${file:filename.pdf}">Link texta</a>.
 ```
