@@ -132,7 +132,7 @@ Editable areas in layouts can be difficult to comprehend.
 
 A layout consists of static HTML. There you can define HTML which always is shown when using the layout. But, you can also create an editable area inside a layout. This creates some dynamic to the layout.
 
-The content of the editable are is now bound to the theme.
+The content of the editable are is now bound to the theme. E.g. one theme has "some text" in the top editable area, another theme has "another text piece" in the top editable area, where the two themes share the same layout.
 
 This means you can use the layout multiple places, like e.g. a sidebar added layout can be used multiple places. But the actual content is added on the themes. And thus on the locations that use the theme.
 
