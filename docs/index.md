@@ -14,6 +14,7 @@ You can find the old documentation for v.1.X [here](https://pronto-plugins.herok
 * Made the request view of a portal isolated, meaning that a theme can be applied to the "request types" view of a portal, and another theme can be applied to the "request view" of a portal.
 * A new structure for the server side, meaning the themes from v1 is going to be migrated into a new format going forward. You should only notice some visual changes to modal windows and so on if updating the plugin.
 * New users must create a theme and assign it to a portal page, before any customization can be made. A layout must be added to the theme as well, if one wants to change the structure of a portal page.
+* Removed the feature of hiding request types. This is not necessary anymore, since it's possible in Service Desk natively.
 
 
 More features are to be added soon.
@@ -26,7 +27,6 @@ More features are to be added soon.
 *Upload files - for a theme. Javascript and CSS are automatically loaded when a theme loads. Events in your javascript can be triggered on location change!
 * Edit (and hide) different components in the Service Desk:
 * Create a category view of portals that replaces the normal portals view.
-* Hide different groups and requests types, and hide them from search.
 * Add fields to the “My Requests” form, e.g. Created/Updated/Labels and more.
 * Customize login page.
 * Export to Excel from "My requests".
