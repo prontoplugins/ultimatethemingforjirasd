@@ -138,7 +138,7 @@ So it means you can use the layout multiple places, like e.g. a sidebar added la
 
 ### Widgets
 
-#### Fields to My requests, and export to CSV
+#### Fields to My requests
 
 The addon lets you add additional fields as columns to the table on the "My/All requests" page:
  1. Go to e.g. My requests
@@ -147,5 +147,9 @@ The addon lets you add additional fields as columns to the table on the "My/All 
  
 You can not change the order of the standard fields.
 
-In the modal, you can also enable export to CSV. When enabled, a button for this shows up right under the request list.
+Note that if you find a that a specific field does not exist in the list, please contact us at prontoplugins@gmail.com. We will add the field (actual the field type) if possible.
+
+#### Export to CSV
+
+In the modal for "Customise the table", you can also enable export to CSV. When enabled, a button for this shows up right under the request list.
 
