@@ -140,12 +140,14 @@ So it means you can use the layout multiple places, like e.g. a sidebar added la
 
 #### Portal categories
 
-The addon lets you create another view of portals, namely that portals are shown in a category view.
+The addon lets you create another view of portals, namely that portals are shown divided into categories you define.
 
 1. Go to the portals page (the base page)
 2. Click Edit portals view
 3. Enable categories
-4. Set categories portals. You can also hide categories, and disable the search functionality.
+4. Set categories portals. 
+
+You can also hide categories, and disable the search functionality.
 
 #### Fields to My requests
 
