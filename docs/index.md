@@ -121,6 +121,8 @@ The .js files are also inserted on the page and executed (but only once, on page
 
 Note that **jQuery** is available in scripts by the variable AJS.$, or jQuery. It depends on the Service Desk version. Just trial and error here for you.
 
+When creating javascript, please wrap your code into a try catch(err) construction, so to avoid errors that can make an effect on the whole application.
+
 A file uploaded can be linked to in the HTML editor (editable area) by using the "link" button/feature (toolbar). If using the source editor, use the following syntax to create a link to a file: 
 ```
 <a href="${file:filename.pdf}">Link texta</a>.
