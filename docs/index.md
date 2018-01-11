@@ -136,3 +136,16 @@ The content of the editable area is now bound to the theme (which you edit on th
 
 So it means you can use the layout multiple places, like e.g. a sidebar added layout can be used multiple places. But the actual content is added on the themes. And thus on the locations that use the theme.
 
+### Widgets
+
+#### Fields to My requests, and export to CSV
+
+The addon lets you add additional fields as columns to the table on the "My/All requests" page:
+ 1. Go to e.g. My requests
+ 2. Click "Customise the table" (beneath the table). A modal opens.
+ 3. Add the fields. Fields can be moved up and down. This will be reflected in the list.
+ 
+You can not change the order of the standard fields.
+
+In the modal, you can also enable export to CSV. When enabled, a button for this shows up right under the request list.
+
