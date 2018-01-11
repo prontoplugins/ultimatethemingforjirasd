@@ -166,3 +166,13 @@ Note that if you find a that a specific field does not exist in the list, please
 
 In the modal for "Customise the table", you can also enable export to CSV. When enabled, a button for this shows up right under the request list.
 
+#### Edit login pages
+
+The addon features that you can edit login pages as well, both the global login page, but also the individal portal login pages.
+
+How: 
+1. Go to the portals page or a specific portal page. 
+2. A link shows up under the "Manage" (uploads) button, that says something like "Edit login page for..".
+3. Click the link. You can now set a theme on the login page and so forth.
+4. When done, sign in.
+
