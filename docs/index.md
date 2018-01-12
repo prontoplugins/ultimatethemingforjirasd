@@ -35,10 +35,13 @@ More features are to be added soon.
 
 Installation in Jira is through Atlassian Marketplace, or by downloading a version and uploading into the Addons section of Jira. 
 
-## Usage 
+## Usage and how do I get started
 
 1. As as administrator (or Sysadmin) go to the portals.
 2. Click the "Ultimate themning" button in the bottom right corner. A left side menu bar should show up.
+
+![m'lady](button.png)
+
 
 ## Explanation
 
