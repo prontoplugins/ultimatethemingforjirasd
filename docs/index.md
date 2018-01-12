@@ -67,7 +67,7 @@ Simple as that!
 
 2. Create and assign a theme to the page. E.g. create a new theme called "My Requests Theme".
 
-3. A button now shows up under the list of requests. Click it.
+3. A button "Customise the table" now shows up under the list of requests. Click it.
 
 <img src="myreqs.png" width="300" />
 
