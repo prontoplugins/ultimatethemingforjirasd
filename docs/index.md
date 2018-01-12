@@ -42,6 +42,19 @@ Installation in Jira is through Atlassian Marketplace, or by downloading a versi
 
 <img src="button.png" width="200" />
 
+Now, to do anything, please go read themes and understand the concept. Everything you do on a page is bound to a theme!
+
+3. Create and assign a theme to the page you want to theme. 
+
+<img src="themes.png" width="400" />
+
+Note that if you share a theme between pages/locations (e.g. different portals), then they will look and behave the same (except for of course the normal Service Desk content).
+
+In the screenshot above, a theme called "Portals Theme" was created. This could be assigned to the Portals page, and only used there. If you e.g. want some generic theme for all the individial portal pages, you create a new theme (e.g. called Portal Standard Theme) and assign to all portals.
+
+4. Now we have assigned a theme, you can customize the portals. Find the button under the list of portals, and click it:
+
+<img src="portals.png" width="400" />
 
 
 ## Explanation
