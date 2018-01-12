@@ -40,7 +40,8 @@ Installation in Jira is through Atlassian Marketplace, or by downloading a versi
 1. As as administrator (or Sysadmin) go to the portals.
 2. Click the "Ultimate themning" button in the bottom right corner. A left side menu bar should show up.
 
-![m'lady](button.png)
+<img src="button.png" width="200" />
+
 
 
 ## Explanation
