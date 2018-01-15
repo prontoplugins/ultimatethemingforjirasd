@@ -111,7 +111,6 @@ If you need e.g. a response left sidebar (+ top and bottom), you can use the fol
 ```
  <div style="margin-top:0" class='container-fluid'>
     <div class='row'>
-        <pre>
         <div class='col-md-12 col-xs-12' style='min-height:80px'>
             ${editable}
         </div>
