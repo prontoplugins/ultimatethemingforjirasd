@@ -1,4 +1,4 @@
-## Ultimate Theming for Jira Service Desk
+
 
 <img src="logo.png" width="400" />
 
