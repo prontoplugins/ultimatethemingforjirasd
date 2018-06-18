@@ -1,4 +1,4 @@
-# Ultimate Theming for Jira Service Desk
+## Ultimate Theming for Jira Service Desk
 
 ## Introduction
 
