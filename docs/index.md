@@ -27,9 +27,10 @@ More features are to be added soon.
 *Upload files - for a theme. Javascript and CSS are automatically loaded when a theme loads. Events in your javascript can be triggered on location change!
 * Edit (and hide) different components in the Service Desk:
 * Create a category view of portals that replaces the normal portals view.
-* Add fields to the “My Requests” form, e.g. Created/Updated/Labels and more.
-* Customize login page.
-* Export to Excel from "My requests".
+* Add fields to the “My Requests” form, e.g. Created/Updated/Labels and more (Order them as well).
+* Sort fields on the My Requests form (ascending/descending). This only works for the current shown requests, but we are working on a better solution.
+* Theme login pages.
+* Export to CSV from "My requests".
 
 ## Installation
 
@@ -52,9 +53,25 @@ Note that if you share a theme between pages/locations (e.g. different portals),
 
 In the screenshot above, a theme called "Portals Theme" was created. This could be assigned to the Portals page, and only used there. If you e.g. want some generic theme for all the individial portal pages, you create a new theme (e.g. called Portal Standard Theme) and assign to all portals.
 
-4. Now we have assigned a theme, you can customize the portals. Find the button under the list of portals, and click it:
+4. Now we have assigned a theme, you can customize the portals. Find the button "Edit portals view" under the list of portals, and click it:
 
 <img src="portals.png" width="400" />
+
+5. Now you can set up a categories view of portals if you want, instead of using the normal way.
+
+Simple as that! 
+
+**Now let's say you to add some new fields to the My Requests**.
+
+1. Go to "My Requests".
+
+2. Create and assign a theme to the page. E.g. create a new theme called "My Requests Theme".
+
+3. A button "Customise the table" now shows up under the list of requests. Click it.
+
+<img src="myreqs.png" width="300" />
+
+4. You can now add more fields. And order them around as well. You can also enable CSV export.
 
 
 ## Explanation
@@ -94,7 +111,6 @@ If you need e.g. a response left sidebar (+ top and bottom), you can use the fol
 ```
  <div style="margin-top:0" class='container-fluid'>
     <div class='row'>
-        <pre>
         <div class='col-md-12 col-xs-12' style='min-height:80px'>
             ${editable}
         </div>
