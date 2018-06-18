@@ -1,5 +1,7 @@
 ## Ultimate Theming for Jira Service Desk
 
+<img src="logo.png" width="200" />
+
 ## Introduction
 
 This is the documentation and help page for the new version 3.X of the Ultimate Theming for Jira Service Desk.
