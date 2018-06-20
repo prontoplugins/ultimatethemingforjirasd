@@ -34,7 +34,7 @@ Finally, you can enable CSV export button. Here it’s possible to export curren
 ## Future
 The plugin will follow the path of it's big sister Ultimate Theming (for Jira Service Desk). 
 
-Right now were on track adding the functionality to the approvals are as well.
+Right now were on track adding the functionality to the approvals area as well.
 
 
 
